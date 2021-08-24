@@ -4,6 +4,13 @@ function helloWorld() {
 }
 
 // sayHello function
-function sayHello() {
-    return "Say, Hello!";
+// function sayHello() {
+//     return "Say, Hello!";
+// }
+
+function sayHello(name) {
+    if (name === undefined) {
+        return "Say, Hello!";
+    }
+    return "Hello, " + name + "!";
 }
