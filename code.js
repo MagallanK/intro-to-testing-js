@@ -8,11 +8,14 @@ function sayHello() {
     return "";
 }
 
-// sayHello, Jane, Alex
+// sayHello, Jane, Alex, Pat
 function sayHello(name) {
-    if (name === 'Alex') {
+    if (name === 'Pat') {
+        return "Hello, Pat!";
+    } else if (name === 'Alex') {
         return "Hello, Alex!";
     } else {
         return "Hello, Jane!";
     }
 }
+
