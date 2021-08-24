@@ -14,6 +14,7 @@ describe('helloWorld', function() {
     });
 });
 
+
 // Exercise #1 & 2: Take your first "Test Drive" by writing your first test!
 describe('sayHello', function() {
     it('should be a defined function', function() {
@@ -30,6 +31,7 @@ describe('sayHello', function() {
     });
 });
 
+
 // Exercise #3: Add a test to confirm actual vs. expected output.
 describe('Hello, Jane', function() {
     it('should be a defined function', function() {
@@ -45,6 +47,7 @@ describe('Hello, Jane', function() {
         expect(sayHello()).not.toBe(undefined);
     });
 });
+
 
 // Exercise #4 Add another small, simple test
 describe('Hello, Alex', function() {
@@ -78,3 +81,6 @@ describe('Hello, Pat', function() {
         expect(sayHello()).not.toBe(undefined);
     });
 });
+
+
+//

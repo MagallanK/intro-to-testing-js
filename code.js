@@ -4,18 +4,24 @@ function helloWorld() {
 }
 
 // sayHello function
-function sayHello() {
-    return "";
-}
+// function sayHello() {
+//     return "";
+// }
 
 // sayHello, Jane, Alex, Pat
+// function sayHello(name) {
+//     if (name === 'Pat') {
+//         return "Hello, Pat!";
+//     } else if (name === 'Alex') {
+//         return "Hello, Alex!";
+//     } else {
+//         return "Hello, Jane!";
+//     }
+// }
+
+
+// Exercise #6: Implement the refactor
 function sayHello(name) {
-    if (name === 'Pat') {
-        return "Hello, Pat!";
-    } else if (name === 'Alex') {
-        return "Hello, Alex!";
-    } else {
-        return "Hello, Jane!";
-    }
+    return "Hello, " + name + "!";
 }
 
