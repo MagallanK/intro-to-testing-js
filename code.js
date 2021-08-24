@@ -3,15 +3,16 @@ function helloWorld() {
     return "Hello, World!";
 }
 
-//sayHello function
+// sayHello function
 function sayHello() {
-    return "Say, Hello!";
+    return "";
 }
 
-//sayHello, Jane, Alex
+// sayHello, Jane, Alex
 function sayHello(name) {
-    if (name === undefined) {
-        return "Say, Hello!";
+    if (name === 'Alex') {
+        return "Hello, Alex!";
+    } else {
+        return "Hello, Jane!";
     }
-    return "Hello, " + name + "!";
 }

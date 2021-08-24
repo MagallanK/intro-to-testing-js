@@ -14,7 +14,7 @@ describe('helloWorld', function() {
     });
 });
 
-// Exercise #1: Take your first "Test Drive" by writing your first test!
+// Exercise #1 & 2: Take your first "Test Drive" by writing your first test!
 describe('sayHello', function() {
     it('should be a defined function', function() {
         expect(typeof sayHello).toBe('function');
@@ -22,16 +22,16 @@ describe('sayHello', function() {
     it('should return a string when called', function() {
         expect(typeof sayHello()).toBe("string");
     });
-    it('should return the string "Say Hello!" when executed', function() {
-        expect(sayHello()).toBe("Say, Hello!");
-    });
+    // it('should return the string "" when executed', function() {
+    //     expect(sayHello()).toBe("");
+    // });
     it("should never return 'undefined' when called", function() {
         expect(sayHello()).not.toBe(undefined);
     });
 });
 
 // Exercise #3: Add a test to confirm actual vs. expected output.
-describe('sayHello', function() {
+describe('Hello, Jane', function() {
     it('should be a defined function', function() {
         expect(typeof sayHello).toBe('function');
     });
@@ -47,7 +47,7 @@ describe('sayHello', function() {
 });
 
 // Exercise #4 Add another small, simple test
-describe('sayHello', function() {
+describe('Hello, Alex', function() {
     it('should be a defined function', function() {
         expect(typeof sayHello).toBe('function');
     });
@@ -62,3 +62,19 @@ describe('sayHello', function() {
     });
 });
 
+
+// Exercise #5 One more test before refactoring...
+describe('Hello, Pat', function() {
+    it('should be a defined function', function() {
+        expect(typeof sayHello).toBe('function');
+    });
+    it('should return a string when called', function() {
+        expect(typeof sayHello()).toBe('string');
+    });
+    it('should return the string "Hello, Pat!" when executed', function() {
+        expect(sayHello("Pat")).toBe('Hello, Pat!');
+    });
+    it("should never return 'undefined' when called", function () {
+        expect(sayHello()).not.toBe(undefined);
+    });
+});
